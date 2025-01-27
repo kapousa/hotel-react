@@ -176,15 +176,7 @@ export const _notifications = [
     postedAt: _times(4),
     isUnRead: false,
   },
-  {
-    id: _id(5),
-    title: 'Delivery processing',
-    description: 'Your order is being shipped',
-    avatarUrl: null,
-    type: 'order-shipped',
-    postedAt: _times(5),
-    isUnRead: false,
-  },
+
 ];
 
 // ----------------------------------------------------------------------
