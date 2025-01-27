@@ -142,8 +142,8 @@ export const _tasks = [...Array(5)].map((_, index) => ({
 export const _notifications = [
   {
     id: _id(1),
-    title: 'Your order is placed',
-    description: 'waiting for shipping',
+    title: 'New feedback added',
+    description: 'One guest added new feedback using booking.com',
     avatarUrl: null,
     type: 'order-placed',
     postedAt: _times(1),
@@ -152,7 +152,7 @@ export const _notifications = [
   {
     id: _id(2),
     title: _fullName(2),
-    description: 'answered to your comment on the Minimal',
+    description: 'answered to your comment on Trip advisor',
     avatarUrl: '/assets/images/avatar/avatar-2.webp',
     type: 'friend-interactive',
     postedAt: _times(2),
