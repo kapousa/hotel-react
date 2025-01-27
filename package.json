@@ -19,9 +19,9 @@
     "re:build-npm": "npm run rm:all && npm install && npm run build",
     "dev:host": "vite --host"
   },
-  "engines": {
-    "node": "20.x"
-  },
+"engines": {
+  "node": ">=18.x <=20.x"
+},
   "packageManager": "yarn@1.22.22",
   "dependencies": {
     "@emotion/cache": "^11.13.1",
